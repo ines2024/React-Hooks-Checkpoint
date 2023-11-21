@@ -1,10 +1,10 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import Add from './Component/Add';
-import Filter from './Component/Filter';
-import MovieList from './Component/MovieList';
-import NavBar from './Component/NavBar';
-import {movies} from './Component/Movies';
+import Add from './Components/Add';
+import Filter from './Components/Filter';
+import MovieList from './Components/MovieList'
+import NavBar from './Components/NavBar';
+import {movies} from './Components/Movies';
 import {useState} from 'react';
 
 function App() {
